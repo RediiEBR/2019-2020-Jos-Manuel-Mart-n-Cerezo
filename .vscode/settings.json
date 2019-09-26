@@ -1,0 +1,15 @@
+{
+    
+        "php.executablePath": "C:/wamp64/bin/php/php7.2.18/php.exe",
+        "php.validate.run": "onType",
+        "php.validate.executablePath": "C:/wamp64/bin/php/php7.2.18/php.exe",
+        "editor.formatOnSave": false,
+        "phpfmt.php_bin": "C:/wamp64/bin/php/php7.2.18/php.exe",
+        "[php]":
+        {
+            "editor.formatOnSave": true
+        },
+        "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "window.zoomLevel": 2
+    
+}
