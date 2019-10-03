@@ -1,4 +1,24 @@
+<?php
+    if(!empty($_POST))
+    {
+        foreach ($_POST as $key => $value) {
+            if(is_array($value))
+            {
+                
+                foreach ($value as $key2 => $value2) {
+                    echo "clave: ".$key2." y valor: ".$value2."<br>";
+                }
+                
+            }
+            else
+            {
+                echo"clave tipo array ".$key." y valor ".$value."<br>";
+            }
+        }
+    }
+?>
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <title></title>
@@ -18,7 +38,7 @@
     </script>
     </head>
     <body>
-        <form action="" method="post">
+        <form action="" method="post" style="width=50;">
             Edad: <input type="number" name="edad" value="" class="form-control"> <br>
             Estudios: <select name="estudios" class="form-control">
                 <option value="Basica">Basica</option>
@@ -27,13 +47,13 @@
                 <option value="Grado">Grado</option>
                         </select>
                         <br>
-            <input type="radio" name="sexo" id="" checked="checked" class="form-control">Hombre <br>
-            <input type="radio" name="sexo" id="" class="form-control">Mujer <br>
-            <input type="radio" name="sexo" id="" class="form-control">Otros <br>
+            <input type="radio" name="sexo" id="" checked="checked"value="Hombresillo" class="form-control">Hombre <br>
+            <input type="radio" name="sexo" id="" class="form-control" value="Mujer">Mujer <br>
+            <input type="radio" name="sexo" id="" class="form-control"value="otros">Otros <br>
 
-            <input type="checkbox" name="aficciones[]" id="" class="form-control">Cine <br>
-            <input type="checkbox" name="aficciones[]" id="" class="form-control">Juegos <br>
-            <input type="checkbox" name="aficciones[]" id="" class="form-control">Salir de amigos <br> 
+            <input type="checkbox" name="aficciones[]" id="" class="form-control" value="cine">Cine <br>
+            <input type="checkbox" name="aficciones[]" id="" class="form-control" value="Juegos">Juegos <br>
+            <input type="checkbox" name="aficciones[]" id="" class="form-control" value="salir amigos">Salir de amigos <br> 
             <input type="submit" value="Enviar" class="btn-primary">
         </form>
     </body>

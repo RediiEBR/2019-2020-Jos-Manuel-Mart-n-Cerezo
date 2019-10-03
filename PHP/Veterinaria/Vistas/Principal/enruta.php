@@ -6,7 +6,7 @@ if (isset($_GET['menu'])) {
     if ($_GET['menu'] == "listados") {
         require_once './Vistas/Mantenimiento/Listado.php';
     }
-    if ($_GET['menu'] == "nuevoAnimal") {
-        require_once './Vistas/Mantenimiento/nuevoAnimal.php';
+    if ($_GET['menu'] == "nuevoanimal") {
+        require_once './Vistas/Mantenimiento/nuevoanimal.php';
     }
 }
