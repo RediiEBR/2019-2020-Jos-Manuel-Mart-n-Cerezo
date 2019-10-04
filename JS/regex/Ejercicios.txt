@@ -1,0 +1,9 @@
+Ejercicios de expresiones regulares
+1.Numero positivo entero
+2.Número decimal.
+3.Fichero word.
+4.imagen jpg,png,gif
+5.Numero hexadecimal
+6.Nombre completo(nombre+ apellido minimo)(solo mayus y ralla no se puede al inicio,
+solo 1 por palabra)
+7.
