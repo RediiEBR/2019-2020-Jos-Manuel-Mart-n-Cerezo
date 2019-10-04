@@ -9,12 +9,17 @@ solo 1 por palabra)
 7.No vacia la cadena
 8.Cadena mayusculas
 9.DNI.
-10.Teléfono español móvil.
+10.Teléfono español móvil.(telefono)
 11.MAC separada por puntos o guiones
-12.IP
+12.IP.
 13.Matrícula de coche
-14.CP
+14.CP(provincia)
 15.Email
 16.tarjeta de credito
 17.Numero de cuenta vancaria(con IBan y sin IBAN)
 18.nº bastidor
+19.URL
+20. aula del IES las fuentezuelas(NN-Edificio)(21-b)
+21.numero de la seguridad social
+22.Código de barras español
+23.ISBN
