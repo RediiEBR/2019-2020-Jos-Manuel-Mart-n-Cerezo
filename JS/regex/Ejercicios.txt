@@ -1,4 +1,5 @@
 Ejercicios de expresiones regulares
+
 1.Numero positivo entero
 2.Número decimal.
 3.Fichero word.
@@ -23,3 +24,4 @@ solo 1 por palabra)
 21.numero de la seguridad social
 22.Código de barras español
 23.ISBN
+24.coordenadas gps
