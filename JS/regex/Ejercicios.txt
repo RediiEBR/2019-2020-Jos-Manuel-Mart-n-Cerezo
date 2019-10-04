@@ -6,4 +6,15 @@ Ejercicios de expresiones regulares
 5.Numero hexadecimal
 6.Nombre completo(nombre+ apellido minimo)(solo mayus y ralla no se puede al inicio,
 solo 1 por palabra)
-7.
+7.No vacia la cadena
+8.Cadena mayusculas
+9.DNI.
+10.Teléfono español móvil.
+11.MAC separada por puntos o guiones
+12.IP
+13.Matrícula de coche
+14.CP
+15.Email
+16.tarjeta de credito
+17.Numero de cuenta vancaria(con IBan y sin IBAN)
+18.nº bastidor
