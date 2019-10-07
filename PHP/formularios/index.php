@@ -1,21 +1,5 @@
 <?php
-    if(!empty($_POST))
-    {
-        foreach ($_POST as $key => $value) {
-            if(is_array($value))
-            {
-                
-                foreach ($value as $key2 => $value2) {
-                    echo "clave: ".$key2." y valor: ".$value2."<br>";
-                }
-                
-            }
-            else
-            {
-                echo"clave tipo array ".$key." y valor ".$value."<br>";
-            }
-        }
-    }
+ 
 ?>
 <!DOCTYPE html>
 
