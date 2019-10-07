@@ -37,7 +37,7 @@ class Validacion
        
        
         //primeramente miramos si el entero tiene rango max/min o no
-        if($min!=PHP_INT_MIN && $max!=PHP_INT_MAX)
+        if($min!=PHP_INT_MIN || $max!=PHP_INT_MAX)
         {
             //validamos 
             if(filter_var($campo,FILTER_VALIDATE_INT(),
@@ -46,13 +46,24 @@ class Validacion
                 return true;
             }
             else{
+                $this->errores[$campo]="El campo ".$campo." no está en el rango requerido,
+                 que es entre ".$min." y ".$max;
                 return false;
             }
 
         }
         else #miramos sin filtro de rango que sea un entero
-         {
-            
+        {
+            if(filter_var($campo,FILTER_VALIDATE_INT()== true))
+            {
+                
+                return true;
+            }
+            else
+            {
+                $this->errores[$campo]="el dato introducido no es un número entero";
+                return false;
+            }
         }
 
     }
@@ -60,13 +71,13 @@ class Validacion
     {
 
     }
-    public function email()
+    public function email($campo)
     {
 
     }
     public function DNI($campo)
     {
-
+        //necesaria expresión regular
     }
     public function patron($campo,$patron)
     {
