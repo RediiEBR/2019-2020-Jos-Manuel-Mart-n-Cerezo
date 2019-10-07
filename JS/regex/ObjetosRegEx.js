@@ -21,7 +21,7 @@
  * ^(\w+@)(\w+).(com|es|net|org). //gmail
  * (http|https)://www.\w+\.(com|es)($|/.+)//url
  * [0-4]{2}[A-Z]$//aula ies las fuentezuelas
- * 
+ * tarjeta de banco: (([0-9]{4}-){3}[0-9]{4}|([0-9]{4} ){3}[0-9]{4})
  * 
  * 
  */
