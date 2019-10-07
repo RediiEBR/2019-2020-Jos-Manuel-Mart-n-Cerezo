@@ -33,7 +33,19 @@ class Validacion
      */
     public function enteroRango($campo,$min=PHP_INT_MIN,$max=PHP_INT_MAX)
     {
-        //primeramente miramos si el entero tiene rango max o no
+        //primeramente 
+        if(requerido()==false)
+        {
+
+        }
+        else
+        //primeramente miramos si el entero tiene rango max/min o no
+        if($min!=PHP_INT_MIN)
+        {
+
+
+        }
+
     }
     public function CadenaRango($campo,$min=PHP_INT_MIN,$max=PHP_INT_MAX)
     {
