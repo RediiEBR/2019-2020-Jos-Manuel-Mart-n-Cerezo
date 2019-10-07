@@ -33,17 +33,26 @@ class Validacion
      */
     public function enteroRango($campo,$min=PHP_INT_MIN,$max=PHP_INT_MAX)
     {
-        //primeramente 
-        if(requerido()==false)
+        //primeramente miramos si está vacío
+       
+       
+        //primeramente miramos si el entero tiene rango max/min o no
+        if($min!=PHP_INT_MIN && $max!=PHP_INT_MAX)
         {
+            //validamos 
+            if(filter_var($campo,FILTER_VALIDATE_INT(),
+            array("options" => array("rango_minimo"=>$min, "rango_maximo"=>$max))) == true)
+            {
+                return true;
+            }
+            else{
+                return false;
+            }
 
         }
-        else
-        //primeramente miramos si el entero tiene rango max/min o no
-        if($min!=PHP_INT_MIN)
-        {
-
-
+        else #miramos sin filtro de rango que sea un entero
+         {
+            
         }
 
     }
