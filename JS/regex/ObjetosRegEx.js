@@ -23,6 +23,6 @@
  * [0-4]{2}[A-Z]$//aula ies las fuentezuelas
  * tarjeta de banco: (([0-9]{4}-){3}[0-9]{4}|([0-9]{4} ){3}[0-9]{4})
  * 
- * 
+ * nº cuenta bancaria: ([0-9]{4} ){3}([0-9]{2} )([0-9]{9})
  */
 
