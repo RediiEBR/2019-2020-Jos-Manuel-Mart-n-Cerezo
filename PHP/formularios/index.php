@@ -47,6 +47,8 @@
                 <option value="Grado">Grado</option>
                         </select>
                         <br>
+            Nombre:<input type="text" name="nombre" required id=""> <br>
+            Edad<input type="number" name="edad"  required min=12 max=38 id=""> <br>
             <input type="radio" name="sexo" id="" checked="checked"value="Hombresillo" class="form-control">Hombre <br>
             <input type="radio" name="sexo" id="" class="form-control" value="Mujer">Mujer <br>
             <input type="radio" name="sexo" id="" class="form-control"value="otros">Otros <br>
