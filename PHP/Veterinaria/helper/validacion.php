@@ -69,5 +69,15 @@ class Validacion
             return true;
         }
     }
+    public function imprimirTexto($campo)
+    {
+        return isset($this->errores[$campo])
+        ?"<span class='errorMensaje'>".$this->errores[$campo]."</span>":"";
+    }
+    public function getValor($campo)
+    {
+        return isset($_POST[$campo])
+        ?$_POST[$campo]:"";
+    }
 }
 ?>
