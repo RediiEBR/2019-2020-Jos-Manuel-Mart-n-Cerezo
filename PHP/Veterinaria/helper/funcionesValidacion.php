@@ -1,16 +1,14 @@
 <?php
-class funcionesValidacion  
+class FuncionesValidacion
 {
-     public static function validaFechaNacimiento()
-     {
-         $fecha=new DateTime($_POST['fechaNacimiento']);
-         $fechaActual=new DateTime('now');
-         if(fecha>$fechaActual)
-         {
-             return false;
-         }
-         return true;
-     }
+    public static function ValidaFechaNacimiento()     
+    {
+        $fecha= new DateTime($_POST['fechanacimiento']);
+        $fechaactual= new DateTime('NOW');
+        if($fecha > $fechaactual)
+        {
+            return false;
+        }
+        return true;
+    }
 }
-
-?>
