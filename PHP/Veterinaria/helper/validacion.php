@@ -45,7 +45,29 @@ class Validacion
     }
     public function validaConFuncion($campo,$funcion,$mensaje)//call_user_func
     {
-        
+        if(!call_user_func($funcion))
+        {
+            $this->errores[$campo]=$mensaje;
+            return false;
+        }
+        else {
+            return true;
+        }
+    }
+    /**
+     * para mirar si ha validado todo
+     *
+     * @return void
+     */
+    public function ValidacionPasada()
+    {
+        if(count($this->errores)!=0)
+        {
+            return false;
+        }
+        else {
+            return true;
+        }
     }
 }
 ?>
