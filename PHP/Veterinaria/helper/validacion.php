@@ -79,5 +79,13 @@ class Validacion
         return isset($_POST[$campo])
         ?$_POST[$campo]:"";
     }
+    public function getSelected()
+    {
+
+    }
+    public function getChecked()
+    {
+        
+    }
 }
 ?>
