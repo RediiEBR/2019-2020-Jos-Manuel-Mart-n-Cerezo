@@ -9,4 +9,7 @@ if (isset($_GET['menu'])) {
     if ($_GET['menu'] == "nuevoanimal") {
         require_once './Vistas/Mantenimiento/nuevoanimal.php';
     }
+    if ($_GET['menu'] == "borraanimal") {
+        require_once './Vistas/Mantenimiento/borraanimal.php';
+    }
 }

@@ -25,6 +25,7 @@
                  echo "<td>" . $animal->getNombre() . "</td>";
                  echo "<td>" . $animal->getRaza() . "</td>";
                  echo "<td>" . $animal->getFechaNacimiento()->format('Y-m-d H:i:s') . "</td>";
+                 echo "<td> <a href='?menu=borraanimal&id=$numerochip'>BORRAR</a></td>";
                  echo "</tr>";
 
              }
@@ -32,5 +33,5 @@
      ?>
   </tbody>
 </table>
-</br>
+<br>
 <a class="btn btn-primary" href="?menu=nuevoanimal">Crear Animal</a>
