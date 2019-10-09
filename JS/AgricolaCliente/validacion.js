@@ -1,0 +1,6 @@
+var errores=[];
+
+Boolean valida()
+{
+
+}
