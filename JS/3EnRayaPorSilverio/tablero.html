@@ -4,11 +4,22 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="tresEnRaya.css" rel="stylesheet">
         <script src="3enRaya.js">
         </script>
     </head>
-    <body id="Tablero" onload="dibujarTablero()">
-        <div ></div>
+    <body id="Tablero">
+        <form action="" name="jugadores">
+            <label>primer Jugador</label>
+            <input type="text" name="jug1" > <br>
+            <label>Segundo Jugador</label>
+            <input type="text" name="jug2" > <br>
+            <input type="button" value="jugar" onclick="comenzar()">
+        </form>
+        <table>
+            <tbody id="juego">
+                
+            </tbody>
+        </table>
     </body>
 </html>
