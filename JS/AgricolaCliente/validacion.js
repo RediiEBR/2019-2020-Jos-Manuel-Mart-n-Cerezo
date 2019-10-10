@@ -1,6 +1,0 @@
-var errores=[];
-
-Boolean valida()
-{
-
-}
