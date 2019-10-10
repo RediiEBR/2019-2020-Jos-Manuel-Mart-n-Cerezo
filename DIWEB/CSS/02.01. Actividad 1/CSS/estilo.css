@@ -1,15 +1,19 @@
-ul
+h1
 {
     
+    font-size:50px;
+    text-align: center
+
+    
 }
-li
-{
-   
-    display: inline;
-}
+
 .navegacion
 {
-    width: 100%; 
+    
+    display: inline-block;
+    width: 30%;
+    padding: 1.5%;
+    
 }
 body
 {
@@ -19,4 +23,9 @@ a
 {
     color: black;
     text-decoration: none;
+}
+
+a[href^="noticas.html"]
+{
+    list-style-image: url(../img/descarga.png)
 }
