@@ -1,0 +1,25 @@
+*
+{
+   font-family: 'Roboto', sans-serif; 
+}
+h2
+{
+    color:red;
+}
+
+p+h2 
+{
+    color:black;
+}
+p+h2::first-letter
+{
+    color:red;
+}
+ul
+{
+    list-style: none;
+}
+li:nth-child(3)
+{
+    color: lawngreen;
+}
