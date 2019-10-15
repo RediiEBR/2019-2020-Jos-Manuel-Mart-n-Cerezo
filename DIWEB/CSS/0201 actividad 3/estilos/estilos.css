@@ -19,8 +19,8 @@ form input[type=submit]
     background-color: orange;
     border-radius: 20px
 }
-#dificultad:checked::after{
-    
+#dificultad:checked::after
+{
     content: "";
     background-image: url(../cthulhu.png);
     width:100px;
@@ -29,7 +29,6 @@ form input[type=submit]
     background-size: 50px;
     background-repeat: no-repeat;
     margin-left: 20px;
-   
     
 }
 a
