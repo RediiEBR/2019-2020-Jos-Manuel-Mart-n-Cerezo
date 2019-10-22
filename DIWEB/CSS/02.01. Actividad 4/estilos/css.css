@@ -1,0 +1,56 @@
+*{
+    font-family: 'Amatic SC', cursive;
+}
+header
+{
+    background-color: rgba(196, 196, 196, 0.96);
+    
+}
+header>nav>ul
+{
+    list-style: none;
+    
+    
+    
+    padding-bottom: 20px;
+    
+}
+
+article
+{
+    width: 80%;
+    float: left;
+    margin-left: 2%;
+    
+}
+.modulo
+{
+    width: 30%;
+    display: inline-block;
+    padding-left: 20px;
+}
+article>.modulo:nth-child(even)
+{
+    background-color: rgba(186, 186, 186, 0.96);
+}
+.header-right>ul>li
+{
+    display: inline;
+    position: relative;
+    left: 75%;
+}
+.header-right>ul>li>a
+{
+    text-decoration: none;
+    padding-left: 10px;
+    color: green;
+}
+li.activo
+{
+  
+    background-image: url(../cthulhu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    z-index: 100;
+    
+}
