@@ -54,3 +54,28 @@ li.activo
     z-index: 100;
     
 }
+header>a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+  article
+{
+    width: 100%;
+   
+}
+.modulo
+    {
+        width: 25%
+    }
+    .header-right>ul>li
+{
+    display: block;
+    padding: 10px;
+    position: relative;
+    left: 0%;
+}
+
+}
