@@ -1,0 +1,55 @@
+body
+{
+    
+}
+header
+{
+    background-color: red;
+}
+nav
+{
+    background-color: blue;
+}
+section
+{
+    display: grid;
+    grid-template-columns: auto 600px;
+    background-color: #fcfcfc;
+    grid-row-gap: 5px;
+    grid-column-gap: 10px;
+    height: 300px;
+    border: 1px solid;
+    width:100%;
+    grid-column-gap: 0px;
+}
+article
+{
+    
+  
+     
+    float: left;
+    background-color: royalblue;
+    grid-column: 1/1;
+    grid-row: 2/4;
+    
+}
+article+article
+{
+    grid-column: 1/1;
+    grid-row: 1/3;
+    margin-top: 5px;
+    margin-bottom: 20%;
+}
+aside
+{
+   grid-row: 1/4;
+    
+    margin-left: 20px;
+    
+    height: 100%; 
+    background-color: green;
+}
+footer
+{
+    background-color: yellow;
+}

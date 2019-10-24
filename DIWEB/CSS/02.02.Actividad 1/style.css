@@ -110,4 +110,5 @@ h6 {
     left: 93%;
     background-image: url(cthulhu_approval.gif);
     /*por el float también se puede saber*/
+    background-repeat: no-repeat;
 }
