@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1200px) {
+  #form
+    {
+        top: 50px;
+        left: 30px;
+        padding-top: 2px;
+    }
+    .col>p
+    {
+        margin-left: 68px;
+    }
+       button
+{
+   color: white;
+    background-color: #00b100;
+    min-height: 40px;
+    font-weight: bolder;
+    width: 100%;
+    margin-top: 30px;
+        border: none;
+}
+    #textoyvideo
+    {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width: 960px) {
+  #form
+    {
+        top: 50px;
+        left: 30px;
+        padding-top: 2px;
+    }
+    .col>p
+    {
+        margin-left: 30px;
+    }
+    .col>i {
+        border: 1px solid #00ceff;
+        color: #00baff;
+        font-size: 50px;
+        margin-top: 100px;
+        padding: 50px;
+        margin-left: 55px;
+        border-radius: 100%;
+    }
+    .fotoPerfil
+{
+    box-shadow: 2px 2px 20px 2px;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 20%;
+}
+}
+@media only screen and (max-width: 850px) {
+  
+    .col>p
+    {
+        margin-left: 30px;
+    }
+    .col>i {
+        border: 1px solid #00ceff;
+        color: #00baff;
+        font-size: 50px;
+        margin-top: 100px;
+        padding: 30px;
+        margin-left: 0px;
+        border-radius: 100%;
+    }
+    .fotoPerfil
+{
+    box-shadow: 2px 2px 20px 2px;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 20%;
+}
+    #cuatrocol
+{
+    
+    background: none;
+    
+    min-height: auto;
+    margin-top: 0%;
+   margin-bottom: 70px;
+   
+   float: left;
+    
+}
+    main>div {
+    background: linear-gradient(to right, rgba(25,52,255,0.7) 20%, rgba(0,255,0,0.7) 100%),url(../fondo_superior.jpg);
+    background-size: cover;
+    min-height: 837px;
+    margin-top: -83px;
+}
+    #text {
+    color: white;
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+
+#text {
+    color: white;
+    padding-top: 0px;
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+    padding-top: 78px;
+}
+
+    main>div {
+    background: linear-gradient(to right, rgba(25,52,255,0.7) 20%, rgba(0,255,0,0.7) 100%),url(../fondo_superior.jpg);
+    background-size: cover;
+    min-height: 837px;
+    margin-top: -83px;
+    display: grid;
+}
+    #text {
+    color: white;
+    padding-top: 0px;
+    width: 100%;
+    float: left;
+    margin-left: 20px;
+    padding-top: 78px;
+}
+    #form {
+    
+    left: -360px;
+        width: 90%;
+    margin-bottom: 60px;
+}
+    #form>h1
+{
+    padding-bottom: 0px;
+}
+    label+br+input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#personal>h1 {
+    text-align: center;
+    margin-bottom: 00px;
+}
+    #personal {
+    margin-top: 0px;
+        min-height: 400px;
+}
+    .fotoPerfil {
+    box-shadow: 2px 2px 20px 2px;
+    width: 80%;
+     min-height: auto; 
+    margin-left: 20%;
+        margin-bottom: 30px;
+}
+    #form {
+    background-color: white;
+    left: 10px;
+    margin-left: 0%; 
+}
+    #cuatrofotos {
+    
+    grid-template-columns: auto;
+    min-height: auto;
+}
+
+.fotoPerfil {
+    box-shadow: 2px 2px 20px 2px;
+    width: 100%;
+    min-height: auto;
+    margin-left: 0%;
+    margin-bottom: 30px;
+}
+    #text {
+    color: white;
+    padding-top: 0px;
+    width: 100%;
+    float: left;
+     margin-left: 0px; 
+    padding-top: 78px;
+}
+    header {
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 68% 24%;
+  
+}
+}

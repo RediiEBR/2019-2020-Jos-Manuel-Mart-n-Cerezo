@@ -1,0 +1,281 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body
+{
+    width: 93.4%;
+    margin-left: 3%;
+}
+header
+{
+    
+    
+   
+    background-repeat: no-repeat;
+   
+    display: grid;
+    grid-template-columns: 85% 15%;
+    /* background:linear-gradient(to right, rgba(25,52,255,0.7) 20%, rgba(0,255,0,0.7) 100%),url(../fondo_superior.jpg)  ;
+    background-size: 100%;
+*/  
+    
+    /*background-color: chocolate*/
+}
+#logo
+{
+    margin-left:20px;
+}
+#social
+{
+    color: white;
+    margin-top: 20px;
+}
+i+i
+{
+    margin-left: 20px;
+}
+li+li
+{
+    margin-top: 50px;
+}
+ul
+{
+    list-style: none
+}
+#text
+{
+    color: white;
+    padding-top: 82px;
+    width: 50%;
+    float: left;
+    margin-left: 20px;
+}
+
+main
+
+{
+    
+ 
+   
+}
+main>div
+{
+    
+    
+    background:linear-gradient(to right, rgba(25,52,255,0.7) 20%, rgba(0,255,0,0.7) 100%),url(../fondo_superior.jpg);
+    background-size: cover;
+    min-height: 650px;
+    margin-top: -83px;
+}
+h1
+{
+    margin: 0;
+}
+#form
+{
+    background-color: white;
+    width: 25%;
+    margin-left: 50%;
+    
+}
+
+
+
+#form
+{
+   
+    position: relative;
+    top: 6em;
+    left: 10em;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px
+}
+label+br+input
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form>input
+{
+    width:90%;
+    min-height: 30px;
+}
+
+#form>h1
+{
+    padding-bottom: 30px;
+}
+small>a
+{
+    color: black;
+    
+}
+
+br+br+input
+{
+    color: white;
+    background-color: #00b100;
+    min-height: 40px;
+    font-weight: bolder;
+    width: 95%;
+        border: none;
+    
+}
+#cuatrocol
+{
+    
+    background: none;
+    
+    min-height: auto;
+    margin-top: 0%;
+   
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.col
+{
+    
+   width: 100%;
+   
+    
+    
+    
+}
+.col>i
+{
+     border: 1px solid #00ceff;
+     
+        
+    color: #00baff;
+    
+    font-size: 50px;
+    
+    margin-top: 100px;
+    padding: 50px;
+    margin-left: 32%;
+    border-radius: 100%;
+    
+}
+.col>p
+{
+    
+    margin-left: 130px;
+}
+
+main>div+div+div
+{
+    background: none;
+    
+}
+#textoyvideo
+{
+    display: grid;
+   grid-template-columns: auto auto;
+    padding: 50px;
+    min-height: auto;
+    background-color: #e6e6e6;
+}
+button
+{
+   color: white;
+    background-color: #00b100;
+    min-height: 40px;
+    font-weight: bolder;
+    width: 70%;
+    margin-top: 30px;
+        border: none;
+}
+#textoyvideo>div>h1
+{
+    margin-bottom: 30px;
+}
+#textoyvideo>video
+{
+    width: 75%;
+}
+#personal
+{
+    margin-top: 100px;
+    
+  }
+#personal>h1
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#cuatrofotos
+{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    min-height: auto;
+   
+}
+.fotoPerfil>img
+{
+    
+    width: 100%;
+}
+.fotoPerfil
+{
+    box-shadow: 2px 2px 20px 2px;
+    width: 80%;
+    min-height: 400px;
+    margin-left: 20%;
+}
+.fotoPerfil>div
+{
+    
+    color: #00b1ff;
+    font-size: 20px;
+}
+.fotoPerfil>p{
+    font-weight: bold;
+}
+footer
+{
+     min-height: 400px;
+    background:linear-gradient(to right, rgba(25, 105, 255, 0.69) 100%, rgba(0,255,0,0.7) 100%),url(../fondo_inferior.jpg);
+    background-size: cover;
+}
+#infoFooter
+{
+    text-align: center;
+   padding-top: 100px;
+    color: white;
+}
+#infoFooter>p:nth-child(1) 
+{
+    font-size: 30px;
+}
+#infoFooter>input
+{
+   color: white;
+    background-color: #00b100;
+    min-height: 40px;
+    font-weight: bolder;
+   
+    margin-top: 30px;
+    border: none;
+}
+#listasFooter
+{
+    background-color: black;
+    color: #9d9d9d;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 80px;
+}
+#listasFooter ul>li
+{
+   display: inline;
+    margin: 10px 20px;
+}
