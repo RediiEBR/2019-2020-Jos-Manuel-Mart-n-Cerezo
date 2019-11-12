@@ -1,0 +1,49 @@
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+nav
+{
+    display: grid ;
+    grid-template-columns: 15% 85%;
+    max-height: 300px;
+    background-color: gray;
+}
+nav>ul
+{
+    
+    display:grid;
+    grid-template-columns: auto auto auto auto auto ;
+}
+#listaNav
+{
+    list-style: none;
+    margin-top: 40px;
+    
+}
+#listaNav>li>a
+{
+    text-decoration: none;
+    color: white;
+}
+nav>img
+{
+    width: 100%;
+}
+li>button
+{
+    border-radius: 20px;
+    min-height: 30px;
+    width: 80%;
+    margin-top: -20px;
+}
+#busqueda
+{
+    margin-top: 30px;
+}
+#busqueda>input
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
