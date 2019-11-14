@@ -1,0 +1,135 @@
+.container{
+    position: relative;
+}
+.caja{
+  width: 180px;
+  height: 180px;
+  background-color: #30B037;
+  color: #FFF;
+  text-align: center;
+  line-height: 180px;
+  margin: 15px;
+  float: left;
+  font-size: 18px;
+  font-family: Arial;
+}
+.caja1
+{
+    transition: background-color 0.5s;
+    
+}
+.caja1:hover
+{
+
+  background-color: red;
+  
+}
+.caja2
+{
+    transition: font-size 0.5s;
+    
+}
+.caja2:hover
+{
+
+  font-size: 25px;
+  
+}
+.caja3
+{
+    transition: color 0.5s;
+    
+}
+.caja3:hover
+{
+
+  color: red;
+   
+  
+}
+.caja4
+{
+    transition: line-height 0.5s;
+    
+}
+.caja4:hover
+{
+
+    line-height: 20px;
+   
+  
+}
+.caja5
+{
+    transition: border-radius 0.5s;
+    
+}
+.caja5:hover
+{
+
+    border-radius: 100%;
+   
+  
+}
+.caja6
+{
+    transition: box-shadow 0.5s;
+    
+}
+.caja6:hover
+{
+
+    box-shadow: 15px 10px 20px #888888;
+   
+  
+}
+.caja7
+{
+    transition: opacity 0.5s;
+    
+}
+.caja7:hover
+{
+
+   opacity: 0;
+   
+  
+}
+.caja8
+{
+    transition: border 0.5s;
+    border: 0px solid black
+    
+}
+.caja8:hover
+{
+
+   border: 10px solid black;
+   
+  
+}
+
+.caja9
+{
+    transition: margin 0.5s;
+    
+}
+.caja9:hover
+{
+
+     margin: 30px;
+   
+  
+}
+.caja10
+{
+    transition: padding 0.5s;
+    
+}
+.caja10:hover
+{
+
+     padding: 30px;
+  
+}
+
