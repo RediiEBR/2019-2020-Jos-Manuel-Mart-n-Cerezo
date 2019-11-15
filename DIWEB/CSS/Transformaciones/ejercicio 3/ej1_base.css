@@ -1,0 +1,106 @@
+.container{
+    position: relative;
+  }
+  .caja{
+    width: 180px;
+    height: 180px;
+    background-color: #30B037;
+    color: #FFF;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px;
+    float: left;
+    font-size: 18px;
+    font-family: Arial;
+  }
+.caja1
+{
+    transition: transform 1s;
+}
+.caja1:hover
+{
+    transform: scale(2, 2);
+}
+.caja2
+{
+    transition: transform 1s;
+}
+.caja2:hover
+{
+    transform: rotate(90deg);
+}
+
+.caja3
+{
+    transition: transform 1s;
+}
+.caja3:hover
+{
+   transform: skew(20deg, 20deg);
+}
+
+.caja4
+{
+    transition: transform 1s;
+}
+.caja4:hover
+{
+   transform: skewX(20deg);
+}
+.caja5
+{
+    transition: transform 1s;
+}
+.caja5:hover
+{
+   transform: skewY(20deg);
+}
+.caja6
+{
+    transition: transform 1s;
+}
+.caja6:hover
+{
+   transform: translate(0px, 210px);
+}
+.caja7
+{
+    transition: transform 1s;
+}
+.caja7:hover
+{
+   transform: translateX(-210px);
+}
+.caja8
+{
+    transition: transform 1s;
+}
+.caja8:hover
+{
+   transform: translateY(210px);
+}
+.caja9
+{
+    transition: transform 1s;
+}
+.caja9:hover
+{
+ transform: perspective(400px) rotateY(45deg);
+}
+.caja10
+{
+    transition: transform 1s;
+}
+.caja10:hover
+{
+  transform: perspective(400px) rotateY(-45deg);
+}
+.caja11
+{
+ transition: transform 1s;   
+}
+.caja11:hover
+{
+    transform: matrix(1, 2, -1, 1, 80, 80);
+ 
+}
