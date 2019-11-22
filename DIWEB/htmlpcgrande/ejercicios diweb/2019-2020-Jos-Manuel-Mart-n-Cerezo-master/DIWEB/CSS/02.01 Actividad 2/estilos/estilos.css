@@ -1,0 +1,39 @@
+*
+{
+   font-family: 'Roboto', sans-serif; 
+}
+h2
+{
+    color:red;
+}
+
+p+h2 
+{
+    color:black;
+}
+p+h2::first-letter
+{
+    color:red;
+}
+ul
+{
+    list-style: none;
+}
+li:nth-child(3)
+{
+    color: lawngreen;
+}
+li:nth-child(3)
+{
+    color: lawngreen;
+}
+li:nth-child(odd):hover::before
+{
+    content: "Somos elementos impares ";
+}
+li:nth-child(even):hover::after
+{
+    content: " Somos elementos pares ";
+    
+    
+}

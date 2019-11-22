@@ -1,0 +1,33 @@
+form
+{
+     
+}
+select
+{
+    border-radius: 20px
+}
+form input[type=text]
+{
+    background-color: orange;
+}
+form input[type=number]
+{
+    background-color: orange;
+}
+form input[type=submit]
+{
+    background-color: orange;
+    border-radius: 20px
+}
+#dificultad:checked::after{
+ background-image: url(../cthulhu.png);
+    
+  background-image: url(../cthulhu.png);
+    background-position:20px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+body
+{
+    
+}

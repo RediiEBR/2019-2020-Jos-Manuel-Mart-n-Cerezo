@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario hamburguesería José Manuel Martín Cerezo</title>
+</head>
+<body>
+    <main>
+        <form action="mailto:pedidos@hamburguerseria.com" method="POST" autocomplete>
+            <h1>Pide lo que te apetezca</h1>
+            <ul>
+                <li>Hamburguesa completa: <input type="number" max="10" min="0" value="0" id="" > </li>
+                <li>Hamburguesa de pollo: <input type="number" max="10" min="0" value="0"></li>
+                <li>Hamburguesa vegetariana: <input type="number" max="10" min="0" value="0"></li>
+                <li>Hamburguesa doble: <input type="number" max="10" min="0" value="0"></li>
+                
+            </ul>
+            
+                <p>Escribe las modificaciones o preferencias sobre el pedido</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Si el pepinillo no es para ti dínoslo"></textarea>
+            
+       
+        <hr>
+        
+            <h2>Datos de contacto</h2>
+            Nombre: <br>
+            <input type="text" max="10" min="0" name="" id="" placeholder="Nombre" autocomplete="on" required><br>
+            Apellidos: <br>
+            <input type="text" placeholder="Apellidos"  id="" autocomplete="on" required><br>
+            Teléfono: <br>
+            <input type="text" placeholder="teléfono" id=""  autocomplete="on" required><br>
+            Correo electrónico: <br>
+            <input type="email" autocomplete="on" name="" id="" required><br>
+            ¿eres mayor de edad?: 
+             <select>
+              <option >No</option>
+              <option>Si</option>
+            </select>
+            <hr>
+                <input type="checkbox" checked="checked" id="">Quiero recibir información sobre ofertas
+                <br>
+                <input type="checkbox"  id="" required>Acepto las condiciones del uso del servicio
+            <hr>
+            <input type="reset" value="Borrar">
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>

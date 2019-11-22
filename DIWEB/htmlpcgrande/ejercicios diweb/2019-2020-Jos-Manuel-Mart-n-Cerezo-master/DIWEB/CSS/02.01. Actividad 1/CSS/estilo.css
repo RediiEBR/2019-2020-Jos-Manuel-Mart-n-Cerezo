@@ -1,0 +1,88 @@
+h1
+{
+    
+    font-size:50px;
+    text-align: center;
+   
+    
+}
+*
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.navegacion
+{
+    float: left;
+    list-style: none;
+      box-sizing: border-box;  
+    padding: 9% 2%;
+    padding-top: 0;
+    margin:0% 8%;
+}
+body
+{
+    background-color: #909090;
+}
+a 
+{
+    color: black;
+    text-decoration: none;
+    
+}
+li:nth-child(1):after {
+  content: ' Brexit';
+}
+li:nth-child(2) {
+  background-image: url(../img/plus.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+   
+}
+li:nth-child(3) {
+  background-image: url(../img/Shopping-Basket-03-512.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+   
+}
+
+li:nth-child(4) {
+  background-image: url(../img/Estrella.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+   
+}
+li:nth-child(5) {
+  background-image: url(../img/pdf.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+   
+}
+li:nth-child(6) {
+  background-image: url(../img/plus.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+    display: none;
+   
+}
+li:nth-child(7) {
+  background-image: url(../img/descarga.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+   
+}
+li:nth-child(8) {
+  background-image: url(../img/shield-icon.png);
+    
+    background-size: 20px;
+    background-repeat: no-repeat;
+   
+}
+
