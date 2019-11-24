@@ -3,3 +3,16 @@ div
     border: 1px solid white;
     padding: 2px;
 }
+.col-sm-12{
+    
+    background-color: red;
+    min-height: 50px;
+}
+.col-sm-2
+{
+    background-color: blue;min-height: 50px
+}
+.col-sm-10 {
+    background-color: green;
+    min-height: 50px;
+}
