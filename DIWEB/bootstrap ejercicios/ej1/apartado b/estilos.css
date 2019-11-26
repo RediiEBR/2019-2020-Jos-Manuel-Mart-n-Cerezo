@@ -5,28 +5,19 @@ div
     min-height: 2em;
 }
 
-#header
-{
-    background-color: #00b100;
-    min-height: 4em;
-}
-#footer
-{
-    background-color: #00b100;
-    min-height: 2em;
-}
+
 .container:nth-child(2)>.col-1
 {
     background-color: red;
     
-    min-height: 10px;
+
     
 }
 .container:nth-child(2)
 {
    
   
-    min-height: 10em;
+    
     
     
 }
@@ -37,4 +28,16 @@ div
 .rosa
 {
     background-color: deeppink;
+}
+.naranja
+{
+    background-color: orange;
+}
+.verde
+{
+    background-color: #00af00;
+}
+.azul
+{
+    background-color: blue;
 }
