@@ -1,0 +1,39 @@
+
+nav
+{
+    background-color: red;
+    min-height: 60px;
+    border-radius: 20px;
+}
+nav>div>a
+{
+    color: white;
+    line-height: 4;
+}
+nav>div>a:hover
+{
+    color: white;
+    text-decoration: overline;
+}
+#formularioBuscar
+{
+    margin-top: .8em;
+}
+#cuerpo
+{
+    border: 1px solid rgba(0, 102, 255, 0.82);
+    border-radius: 20px;
+}
+footer>div>h1
+{
+    border-radius: 20px !important;
+}
+#listaSocial>li
+{
+    border: 1px solid rgba(0, 102, 255, 0.82);
+    border-radius:10px; 
+}
+#listaSocial
+{
+    margin-bottom: 10px;
+}

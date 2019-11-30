@@ -1,0 +1,16 @@
+requisitos de este ejercicio
+3 páginas entrelazadas entre sí
+<nav>
+    2 enlaces
+    logotipo
+    buscador
+</nav>
+caroussel de 3 imágenes que se pasen cada 3 segundos
+tener los siguientes elementos
+iconos con fontAwesome
+botones
+desplegable
+una seccion con fichas o pestañas
+un formulario horizontal
+una tabla responsiva con bordes y de tispo striped
+usar estilos propios a parte de los de bootstrap como custom.css , el mismo para todas las páginas
