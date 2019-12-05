@@ -1,0 +1,5 @@
+#services .icon {
+    position: absolute;
+    left: 2px;
+    top: calc(50% - 32px);
+}
