@@ -1,0 +1,72 @@
+/* ESTILOS GENERALES */
+html,
+body {
+  height: 100%;
+}
+/* Modificar el modelo de cajas de CSS */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* Resetear márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+/* ESTILOS DE LOS CONTENIDOS */
+/* Barra de navegación */
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main-nav {
+  display: flex;
+  list-style: none;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+#main-nav li {
+  padding: 12px 0.85em;
+}
+#main-nav li a {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  padding-bottom: 12px;
+}
+#main-nav li a:hover {
+  border-bottom: 2px solid #ff0000;
+}
+#main-nav + a {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  border: 1px solid #ff0000;
+  padding: 12px 3em;
+  transition: all 0.5s;
+}
+
+#main-nav + a:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: all 0.5s;
+}
+nav {
+  padding: 12px 0;
+  border-bottom: 1px solid #ccc;
+}
