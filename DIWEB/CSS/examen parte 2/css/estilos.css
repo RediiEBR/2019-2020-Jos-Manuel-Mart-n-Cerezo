@@ -1,3 +1,8 @@
+*
+{
+    font-family: 'Lato', sans-serif;    
+}
+
 /* ESTILOS GENERALES */
 html,
 body {
@@ -24,6 +29,7 @@ body {
   width: 90%;
   max-width: 1366px;
   margin: 0 auto;
+    
 }
 /* ESTILOS DE LOS CONTENIDOS */
 /* Barra de navegación */
@@ -69,4 +75,177 @@ body {
 nav {
   padding: 12px 0;
   border-bottom: 1px solid #ccc;
+}
+#seccionPrimera
+{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.2) 100%),url(../images/buffet-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    
+}
+#seccionPrimera>h1
+{
+    font-size: 60px;
+    padding-top: 200px;
+    color: yellow;
+     text-shadow: 20px 20px 20px #000000;
+}
+#acercade
+{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.divider
+{
+    min-height: 1px;
+    border: 1px solid red;
+    margin: auto;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+#seccionSegunda
+{
+    display: flex;
+    flex-wrap:nowrap; 
+}
+#seccionSegunda>img
+{
+    width: 50%;
+    height: 396px;
+  
+}
+#seccionSegunda p
+{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#seccionTercera
+{
+    margin-top: 100px;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.87) 20%, rgba(0, 0, 0, 0.2) 100%),url(../images/food-table.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 200px;
+}
+#seccionTercera>p
+{
+    padding-top:80px ;
+    color: white;
+    font-size: 20px;
+    
+}
+#servicios
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.container
+{
+    width: 90%;
+    display: flex;
+    
+}
+#seccionCuarta>div:nth-child(1)
+{
+    width: 33%;
+   
+    
+    margin-right: 20px;
+}
+#seccionCuarta>div:nth-child(2)
+{
+    width: 33%;
+   
+    
+    margin-right: 20px;
+    
+}#seccionCuarta>div:nth-child(3)
+{
+    width: 33%;
+    
+   
+    
+}
+#seccionCuarta>div
+{
+    width: 30%;
+   
+    justify-content: flex-start;
+    margin-right: 20px;
+    border:solid white 1px;
+    box-shadow: -1px 1px 5px;
+}
+#seccionCuarta>div>img
+{
+    width: 100%;
+    
+    
+}
+#seccionCuarta>div>h3
+{
+    width: 100%;
+    text-align-last: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#paquetes
+{
+    text-align: center;
+    margin-top: 30px;
+}
+#paquetes~p
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#seccionQuinta
+{
+    display: flex;
+    justify-content: space-around;
+}
+.col>ul
+{
+    width: 100%;
+    list-style: none;
+   border: 1px solid gray;
+    transition: box-shadow ease 0.3s;
+}
+.col>ul:hover
+{
+     box-shadow: -1px 1px 5px;
+}
+ 
+.col>ul>li
+{
+    text-align: center;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.66);
+    padding: 15px 35px;
+    
+}
+.col:nth-child(1),.col:nth-child(2)
+{
+    margin-right: 7%;
+}
+.package-header
+{
+    font-weight: bold;
+    
+}
+.price
+{
+    background-color: rgba(128, 128, 128, 0.21);
+}
+.col>ul>li>i
+{
+    color: green;
 }
