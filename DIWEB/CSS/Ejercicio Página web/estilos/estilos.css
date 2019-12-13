@@ -1,26 +1,181 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 body
 {
-    background-color: #6394b2;
+    width: 100%
 }
+
 nav
 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    border: 1px solid;
-    min-height: 200px;
+    display: flex;
+    background-color: gray;
 }
-nav>img
+nav>ul>img
 {
-    width:50%;
+   max-width: 10%;
+    min-width: 100px;
     
 }
-nav>ul
+nav ul
 {
-    list-style: none;
     display: inline-flex;
+    justify-content: space-around;
+  
+    width: 100%;
+    
+    list-style:none; 
+    align-items: center;
     
 }
-ul>li>a
+li>button
+{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+nav ul>li>a
+{
+    text-decoration: none;
+    color: black;
+}
+main
 {
     
+}
+#parteBuscar
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    box-shadow: 0px 5px 20px #888888;
+   
+    text-align: center;
+    
+}
+#busqueda>*
+{
+  width: 100%;
+     
+}
+#busqueda>input:nth-child(3)
+{
+    
+    border: none;
+    border-radius: 5px;
+    background-color: #0058ff;
+    padding: 20px 0px 20px 0px;
+    margin: 10px 0px;
+    
+    color: white;
+     cursor: pointer;
+    transition:  all ease 0.5s;
+}
+#busqueda>input:nth-child(3):hover
+{
+    background-color: #0076ff;
+    
+}
+#busqueda>input:nth-child(1)
+{
+    
+    
+    border-radius: 5px;
+    
+    padding: 10px 0px;
+    margin: 10px 0px;
+
+}
+#busqueda
+{
+    margin: 2% 10% 3%;    
+}
+#parteBuscar
+{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#Banner
+{
+    background-image: url(../Source/bannerSSBB.jpg);
+    background-size: cover;
+    min-height: 200px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+#CategoriasJuegos
+{
+   
+    text-align: center;
+    
+}
+#CategoriasJuegos>ul
+{
+    list-style:none;
+    box-shadow: 0px 10px 10px #888888;
+   
+    margin: 2% 10% 3%;
+    border-radius: 10px;
+}
+#CategoriasJuegos>ul>li
+{
+    padding: 20px;
+   border-radius: 0px 00px 0px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+    transition: all 0.02s ;
+}
+#CategoriasJuegos>ul li:hover
+{
+     background-color: rgba(155, 155, 155, 0.41);
+    color: white;
+     
+}
+#CategoriasJuegos>ul>li:nth-last-child(1)
+{
+    
+    border-bottom: 0px solid;
+}
+#CategoriasJuegos>ul>li:nth-child(1)
+{
+    background-color: rgba(128, 128, 128, 0.4);
+     
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.textoCentrado
+{
+    margin: auto;
+    text-align: center;
+}
+.contiene3
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 3% 6%;
+    
+}
+.contiene1
+{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+.contiene1>img
+{
+    width: 100%;
+    border: 1px solid;
 }
