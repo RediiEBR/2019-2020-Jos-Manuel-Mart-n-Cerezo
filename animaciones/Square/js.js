@@ -27,35 +27,65 @@ function accionesJuego(){
     //Modificamos la dirección que tendrá nuestro player en función de la tecla presionada   
         if(lastPress==KEY_RIGHT)
         {
-            x+=5;
-            estaPausado=false;
-            prevLast=KEY_RIGHT;
+           
+            if(estaPausado==false)
+            {
+                x+=5;
+                prevLast=KEY_RIGHT;
+            }
+            
         }
         else
         if(lastPress==KEY_LEFT)
         {
-            x-=5;
-            estaPausado=false;
-            prevLast=KEY_LEFT;
+            if(estaPausado==false)
+            {
+                x-=5;
+            
+                prevLast=KEY_LEFT;
+            }
+           
         }else
         if(lastPress==KEY_UP)
         {
-            y-=5;
-            estaPausado=false;
-            prevLast=KEY_UP;
+            if(estaPausado==false)
+            {
+                y-=5;
+            
+                prevLast=KEY_UP;
+            }
+           
         }
         else
         if(lastPress==KEY_DOWN)
         {
-            y+=5;
-            estaPausado=false;
-            prevLast=KEY_DOWN;
+            if(estaPausado==false)
+            {
+                y+=5;
+            
+                prevLast=KEY_DOWN;
+            }
         }
         else
         if(lastPress==KEY_ENTER)
         {
+            estaPausado=!estaPausado;
+            lastPress=null;
+            if(estaPausado==false)
+            {
+                lastPress=prevLast;
+            }
+            // if (estaPausado)
+            // {
+            //     estaPausado=false;
+            //     lastPress=null;
+            // }
+            // else
+            // {
+            //     estaPausado=true;
+            //     lastPress=null;
+            // }
             
-            estaPausado=true;
             
           
             
