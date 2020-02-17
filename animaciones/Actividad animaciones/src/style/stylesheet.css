@@ -12,24 +12,34 @@
     from { transform: rotate(0deg) }
     to   { transform: rotate(360deg) }
 }
+@keyframes entrar {
+    from { 
+        margin-left: 114%;
+        opacity: 0; 
+    }
+    to   {
+        margin-left: 114%;
+        opacity: 0;
+     }
+}
 
 body {
     -moz-animation-name: roll;
-    -moz-animation-duration: 4s;
+    -moz-animation-duration: 0.5s;
     -moz-animation-iteration-count: 1;
     -webkit-animation-name: roll;
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 1s;
     -webkit-animation-iteration-count: 1;
 }
 
-html,body,div,iframe {
+html,body,div {
    margin: 0;
    padding: 0;
    height: 100%;
    overflow: hidden;
 }
-
-iframe {
-   width: 100%;
-   border: 0;
+#ejemplo
+{
+    
+    -moz-animation-name: entrar;
 }
