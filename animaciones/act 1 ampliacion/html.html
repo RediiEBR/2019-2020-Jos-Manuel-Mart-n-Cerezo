@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/258596f4d0.js" crossorigin="anonymous"></script>
+    <script src="script/js.js"></script>
+    <title>Aerolíneas Racanair</title>
+  </head>
+  <body>
+    
+   <div class="container">
+      <h1>Vuelos de aerolíneas Racanair</h1>
+       <ul class="list-group">
+          <li class="list-group-item" ondrop="drop(event)" ondragover="allowDrop(event)" id="despegados">Número de vuelos despegados: <span >0</span> </li>
+          <li class="list-group-item" ondrop="drop(event)" ondragover="allowDrop(event)" id="aterrizados" >Número de  vuelos aterrrizados:<span >0</span></li>
+          <li class="list-group-item" draggable="true" ondragstart="drag(event)" id="empezarVuelo"><i class="fas fa-plane-departure"></i></li>
+          <li class="list-group-item"  draggable="true"ondragstart="drag(event)" id="acabarVuelo"><i class="fas fa-plane-arrival"></i></li>
+          <li class="list-group-item" ondrop="drop(event)" ondragover="allowDrop(event)" id="basura"><i class="fas fa-trash-alt"></i></li>
+      </ul>
+      <h2>Arrastra los aviones a los contadores o a la papelera</h2>
+      <h2>según lo que quieras hacer.</h2>
+   </div>
+    
+  </body>
+</html>
